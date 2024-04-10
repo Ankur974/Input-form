@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const input = document.createElement('input');
       input.setAttribute('type', 'text');
       input.setAttribute('placeholder', data.placeholder);
+      input.value = data.placeholder;
       input.classList.add('input');
       input.addEventListener('input', function() {
           data.placeholder = input.value;
@@ -161,6 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const textarea = document.createElement('textarea');
       textarea.setAttribute('placeholder', data.placeholder);
+      textarea.value = data.placeholder;
       textarea.classList.add('textarea');
       textarea.addEventListener('input', function() {
           data.placeholder = textarea.value;
