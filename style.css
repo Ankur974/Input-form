@@ -123,3 +123,7 @@ body {
     margin-left: 5px; 
     cursor: pointer;
   }
+
+  .label{
+    border: none;
+  }
